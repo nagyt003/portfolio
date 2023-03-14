@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<meta name="description" content="A Front End focused Web Developer" />
+		<meta name="author" content="Nagy Tamás" />
+
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/queries.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="icon" type="image/x-icon" href="/assets/img/logo.png" />
+		<title>Nagy Tamás | Front End Developer</title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+		<script defer src="js/script.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__content">
+					<div class="header__left">
+						<a href="" class="header__logo-link link">
+							<div class="header__logo-img-container">
+								<img src="./assets/img/logo.png" alt="" />
+							</div>
+							<span class="header__logo-name">Tamás</span>
+						</a>
+						<button id="dark-mode-toggle" class="header__theme-toggle">
+							<img src="./assets/icon/sun.svg" alt="sun" class="sun" />
+							<img src="./assets/icon/moon.svg" alt="moon" class="moon" />
+						</button>
+					</div>
+					<nav class="header__nav">
+						<ul class="header__nav-links">
+							<li><a href="#about" class="header__nav-link link">About</a></li>
+							<li>
+								<a href="#skills" class="header__nav-link link">Skills</a>
+							</li>
+							<li>
+								<a href="#projects" class="header__nav-link link">Projects</a>
+							</li>
+							<li>
+								<a href="#contact" class="header__nav-link link">Contact</a>
+							</li>
+						</ul>
+					</nav>
+					<label class="header__hamburger-menu">
+						<input class="header__hamburger-check" type="checkbox" />
+					</label>
+					<aside class="header__sidebar">
+						<nav class="header__sidebar-nav">
+							<ul class="header__sidebar-nav-links">
+								<li>
+									<a href="#about" class="header__sidebar-nav-link link"
+										>About</a
+									>
+								</li>
+								<li>
+									<a href="#skills" class="header__sidebar-nav-link link"
+										>Skills</a
+									>
+								</li>
+								<li>
+									<a href="#projects" class="header__sidebar-nav-link link"
+										>Projects</a
+									>
+								</li>
+								<li>
+									<a href="#contact" class="header__sidebar-nav-link link"
+										>Contact</a
+									>
+								</li>
+							</ul>
+						</nav>
+					</aside>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="section-hero" id="hero">
+				<div class="container">
+					<div class="hero__content">
+						<h1 class="hero__heading">👋 I'm Tamás Nagy</h1>
+						<p class="hero__description">A Front End focused Web Developer</p>
+						<a href="#projects" class="hero__cta link btn">Projects</a>
+					</div>
+					<div class="hero__social-icons">
+						<a
+							href="https://github.com/nagyt003"
+							target="_blank"
+							class="hero__social-icon"
+						>
+							<img src="./assets/icon/github.svg" alt="github" />
+						</a>
+						<a
+							href="https://www.linkedin.com/in/tam%C3%A1s-nagy-493961203/"
+							target="_blank"
+							class="hero__social-icon"
+						>
+							<img src="./assets/icon/linkedin.svg" alt="linkedin" />
+						</a>
+					</div>
+					<div class="hero__mouse-scroll"></div>
+				</div>
+			</section>
+			<section class="section__about" id="about">
+				<div class="container">
+					<h2 class="section__heading">About Me</h2>
+					<h3 class="section__sub-heading">
+						Here you will find more information about me
+					</h3>
+					<div class="about__content">
+						<div class="about__content-main">
+							<p class="about__content-text">
+								I'm a <strong>Frontend Web Developer</strong> building the
+								Front-end of Websites and Web Applications that leads to the
+								success of the overall product. Check out some of my work in the
+								<strong>Projects</strong> section.
+							</p>
+							<p class="about__content-text">
+								I'm open to <strong>Job</strong> opportunities where I can
+								contribute, learn and grow. If you have a good opportunity that
+								matches my skills and experience then don't hesitate to
+								<strong>contact</strong> me.
+							</p>
+							<a href="" class="btn link">Resume</a>
+						</div>
+
+						<div class="about__content-image-container">
+							<img src="./assets/img/about.png" alt="Nagy Tamás" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section__skills" id="skills">
+				<div class="container">
+					<h2 class="section__heading">Skills</h2>
+					<h3 class="section__sub-heading">
+						Here you will find the technologies I've worked with
+					</h3>
+					<div class="skills__content">
+						<div class="skill__content">
+							<div class="skill__content-image-container">
+								<img src="./assets/icon/html.svg" alt="" />
+							</div>
+							<span class="skill__content-name">html</span>
+						</div>
+						<div class="skill__content">
+							<div class="skill__content-image-container">
+								<img src="./assets/icon/css.svg" alt="" />
+							</div>
+
+							<span class="skill__content-name">css</span>
+						</div>
+						<div class="skill__content">
+							<div class="skill__content-image-container">
+								<img src="./assets/icon/javascript.svg" alt="" />
+							</div>
+							<span class="skill__content-name">javascript</span>
+						</div>
+
+						<div class="skill__content">
+							<div class="skill__content-image-container">
+								<img src="./assets/icon/react.svg" alt="" />
+							</div>
+							<span class="skill__content-name">react</span>
+						</div>
+
+						<div class="skill__content">
+							<div class="skill__content-image-container">
+								<img src="./assets/icon/redux.svg" alt="" />
+							</div>
+							<span class="skill__content-name">redux</span>
+						</div>
+
+						<div class="skill__content">
+							<div class="skill__content-image-container">
+								<img src="./assets/icon/sass.svg" alt="" />
+							</div>
+							<span class="skill__content-name">sass</span>
+						</div>
+
+						<div class="skill__content">
+							<div class="skill__content-image-container">
+								<img src="./assets/icon/tailwind.svg" alt="" />
+							</div>
+							<span class="skill__content-name">tailwind css</span>
+						</div>
+
+						<div class="skill__content">
+							<div class="skill__content-image-container">
+								<img src="./assets/icon/node.svg" alt="" />
+							</div>
+							<span class="skill__content-name">node js</span>
+						</div>
+
+						<div class="skill__content">
+							<div class="skill__content-image-container">
+								<img src="./assets/icon/firebase.svg" alt="" />
+							</div>
+							<span class="skill__content-name">firebase</span>
+						</div>
+
+						<div class="skill__content">
+							<div class="skill__content-image-container">
+								<img src="./assets/icon/mongo.svg" alt="" />
+							</div>
+							<span class="skill__content-name">mongodb</span>
+						</div>
+
+						<div class="skill__content">
+							<div class="skill__content-image-container">
+								<img src="./assets/icon/git.svg" alt="" />
+							</div>
+							<span class="skill__content-name">git</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section__projects" id="projects">
+				<div class="container">
+					<h2 class="section__heading">Projects</h2>
+					<h3 class="section__sub-heading">
+						Here you will find some of my recent projects
+					</h3>
+					<div class="projects__content">
+						<div class="project__row grid grid__col">
+							<div class="project__row-image-container">
+								<img
+									src="./assets/img/memory-legends.PNG"
+									alt="Memory Legends"
+								/>
+							</div>
+							<div class="project__row-content">
+								<h3 class="project__row-content-title">Memory Legends</h3>
+								<p class="project__row-content-description">
+									Memory Legends, also known as the Concentration card game or
+									Matching Game, is a simple card game where you need to match
+									pairs by turn over 2 cards at a time.
+								</p>
+								<div class="project__row-content-btns">
+									<a
+										href="https://react-memory-game-app.vercel.app/"
+										target="_blank"
+										class="project__row-content-btns-btn btn-secondary link"
+									>
+										<img src="./assets/icon/demo.svg" alt="" />
+										<span>DEMO</span>
+									</a>
+									<a
+										href="https://github.com/nagyt003/react-memory-game-app"
+										target="_blank"
+										class="project__row-content-btns-btn btn-secondary link"
+									>
+										<img src="./assets/icon/github.svg" alt="" />
+										<span>CODE</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="project__row grid grid__col-reverse">
+							<div class="project__row-content">
+								<h3 class="project__row-content-title">Imagin AI-ton</h3>
+								<p class="project__row-content-description">
+									With this application, you can create beautiful images from
+									text with the DALL-E AI.
+								</p>
+								<div class="project__row-content-btns">
+									<a
+										href="https://imagin-ai-ton-app.onrender.com/"
+										target="_blank"
+										class="project__row-content-btns-btn btn-secondary link"
+									>
+										<img src="./assets/icon/demo.svg" alt="" />
+										<span>DEMO</span>
+									</a>
+									<a
+										href="https://github.com/nagyt003/mern-imagin-ai-ton-app"
+										target="_blank"
+										class="project__row-content-btns-btn btn-secondary link"
+									>
+										<img src="./assets/icon/github.svg" alt="" />
+										<span>CODE</span>
+									</a>
+								</div>
+							</div>
+							<div class="project__row-image-container">
+								<img src="./assets/img/imagination.PNG" alt="Imagin AI-ton" />
+							</div>
+						</div>
+						<div class="project__row grid grid__col">
+							<div class="project__row-image-container">
+								<img src="./assets/img/cryptoverse.PNG" alt="CryptoVerse" />
+							</div>
+							<div class="project__row-content">
+								<h3 class="project__row-content-title">CryptoVerse</h3>
+								<p class="project__row-content-description">
+									CryptoVerse is free to use web application about the most
+									valuable Crypto currencies. The application gives you the
+									ability to have a brief outlook of the top 20 coins in the
+									crypto market as well as the ongoing trending coins.
+								</p>
+								<div class="project__row-content-btns">
+									<a
+										href="https://react-cryptoverse-app.web.app/"
+										target="_blank"
+										class="project__row-content-btns-btn btn-secondary link"
+									>
+										<img src="./assets/icon/demo.svg" alt="" />
+										<span>DEMO</span>
+									</a>
+									<a
+										href=""
+										target="_blank"
+										class="project__row-content-btns-btn btn-secondary link"
+									>
+										<img src="./assets/icon/github.svg" alt="" />
+										<span>CODE</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section__contact" id="contact">
+				<div class="container">
+					<h2 class="section__heading">Contact</h2>
+					<h3 class="section__sub-heading">
+						Feel free to Contact me by submitting the form below and I will get
+						back to you as soon as possible
+					</h3>
+					<div class="contact__content">
+						<form
+							action="https://formsubmit.co/nagy.t003@gmail.com"
+							enctype="multipart/form-data"
+							class="contact__form"
+							method="post"
+						>
+							<div class="contact__form-field">
+								<label for="name" class="contact__form-label">Name</label>
+								<input
+									type="text"
+									class="contact__form-input"
+									name="name"
+									id="name"
+									placeholder="Enter Your Name"
+									required
+								/>
+							</div>
+							<div class="contact__form-field">
+								<label for="email" class="contact__form-label">Email</label>
+								<input
+									type="text"
+									class="contact__form-input"
+									name="email"
+									id="email"
+									placeholder="Enter Your Email"
+									required
+								/>
+							</div>
+							<div class="contact__form-field">
+								<label for="message" class="contact__form-label">Message</label>
+								<textarea
+									type="text"
+									cols="30"
+									rows="10"
+									class="contact__form-input"
+									name="message"
+									id="message"
+									placeholder="Enter Your Message"
+									required
+								></textarea>
+							</div>
+
+							<button type="submit" value="Submit" class="btn">Send</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<div class="footer__top-row">
+						<h2 class="footer__top-heading">Tamás Nagy</h2>
+						<p class="footer__top-description">
+							A Front End focused Web Developer
+						</p>
+					</div>
+					<div class="footer__top-row">
+						<h2 class="footer__top-heading">Socials</h2>
+						<div class="footer__top-socials">
+							<a
+								href="https://www.linkedin.com/in/tam%C3%A1s-nagy-493961203/"
+								target="_blank"
+								class="link"
+								><img src="./assets/icon/linkedin-white.svg" alt="linkedin"
+							/></a>
+							<a href="https://github.com/nagyt003" target="_blank" class="link"
+								><img src="./assets/icon/github-white.svg" alt="github"
+							/></a>
+						</div>
+					</div>
+				</div>
+				<hr />
+				<div class="footer__bottom">
+					<p class="footer__copyright">
+						Copyright &copy; <span class="year">2027</span> Made By
+						<a href="#hero" class="link">Tamás Nagy</a>
+					</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
